@@ -17,7 +17,7 @@ MODEL_PATHS = {
         "PHOBERT": "Sura3607/tngt-ner-phobert",  
         
         # File phụ trợ
-        "LABEL_MAP": os.path.join(MODEL_DIR, "ner/label_map.pkl"),
+        "LABEL_MAP": os.path.join(MODEL_DIR, "ner/label_map.json"),
         
         # Models ML (.pkl)
         "LOGREG":    os.path.join(MODEL_DIR, "ner/logistic_regression.pkl"),
